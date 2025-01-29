@@ -459,6 +459,10 @@ func TestTransform(t *testing.T) {
 			"fixtures/comment-in-a-midst-of-row.feature",
 			"fixtures/comment-in-a-midst-of-row.feature",
 		},
+		{
+			"fixtures/multiline-scenario-description.feature",
+			"fixtures/multiline-scenario-description.feature",
+		},
 	}
 
 	for _, scenario := range scenarios {
